@@ -4,5 +4,8 @@ xgboost
 imbalanced-learn
 shap
 matplotlib
-gradio
+seaborn
+plotly
+diagrams
+streamlit
 joblib

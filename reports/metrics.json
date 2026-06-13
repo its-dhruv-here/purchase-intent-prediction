@@ -1,0 +1,54 @@
+{
+    "dataset": {
+        "Total Rows": 12330,
+        "Classes": 2,
+        "Train Samples": 9864,
+        "Test Samples": 2466
+    },
+    "benchmarks": [
+        {
+            "Model": "Logistic Regression",
+            "Accuracy": 0.8507704785077048,
+            "Precision": 0.5379188712522046,
+            "Recall": 0.7420924574209246,
+            "Macro F1": 0.7653257864211438,
+            "Weighted F1": 0.8597283897748441,
+            "ROC AUC": 0.9002291011774736,
+            "Train Time (s)": 0.09961605072021484,
+            "Inference Time (s)": 0.005283832550048828
+        },
+        {
+            "Model": "Random Forest",
+            "Accuracy": 0.8941605839416058,
+            "Precision": 0.6875,
+            "Recall": 0.6690997566909975,
+            "Macro F1": 0.8074204751399631,
+            "Weighted F1": 0.8935840635809906,
+            "ROC AUC": 0.9235518378413579,
+            "Train Time (s)": 1.2028801441192627,
+            "Inference Time (s)": 0.045607805252075195
+        },
+        {
+            "Model": "XGBoost",
+            "Accuracy": 0.8905109489051095,
+            "Precision": 0.6860158311345647,
+            "Recall": 0.6326034063260341,
+            "Macro F1": 0.7965209737850607,
+            "Weighted F1": 0.8887163909075908,
+            "ROC AUC": 0.9203177816849297,
+            "Train Time (s)": 0.28537607192993164,
+            "Inference Time (s)": 0.007445096969604492
+        }
+    ],
+    "best_model": {
+        "Model": "Random Forest",
+        "Accuracy": 0.8941605839416058,
+        "Precision": 0.6875,
+        "Recall": 0.6690997566909975,
+        "Macro F1": 0.8074204751399631,
+        "Weighted F1": 0.8935840635809906,
+        "ROC AUC": 0.9235518378413579,
+        "Train Time (s)": 1.2028801441192627,
+        "Inference Time (s)": 0.045607805252075195
+    }
+}
